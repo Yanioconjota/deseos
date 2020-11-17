@@ -7,7 +7,8 @@ import { DeseosService } from 'src/app/services/deseos.service';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
+  listas: any[];
 
-  constructor(public deseosService: DeseosService) {}
-
+  constructor(public deseosService: DeseosService) {
+  }
 }
