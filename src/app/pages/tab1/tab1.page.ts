@@ -21,7 +21,7 @@ export class Tab1Page {
     
     const alert = await this.alertCtrl.create({
       cssClass: 'my-custom-class',
-      header: 'Vueva lista',
+      header: 'Nueva lista',
       inputs: [{
         name: 'titulo',
         type: 'text',
